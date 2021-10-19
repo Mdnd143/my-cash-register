@@ -1,38 +1,62 @@
 .container{
+    position: absolute;
+    left: 20rem;
+    top: 5rem;
     display: flex;
     flex-direction: column;
-    width: 50vh;
+    width: 60vh;
 }
 body{
-    background-color: aquamarine;
+    background-color: rgb(203, 212, 114);
 }
 #bill-amount{
-    background-color:rgb(243, 241, 150);
     border-radius: 1rem;
-    border: solid 2px blue;
+    border: solid 2px rgb(28, 28, 80);
     
 }
 #cash-given{
-    background-color: rgb(243, 241, 150);
     border-radius: 1rem;
-    border: solid 2px blue;
+    border: solid 2px rgb(28, 28, 80);
 }
 #check-button{
-    background-color: rgb(243, 241, 150);
+    background-color: rgb(170, 54, 39);
     border-radius: 1rem;
-    border: solid 2px blue;
+    border: solid 2px rgb(28, 28, 80);
     margin-top: 1rem;
+    font-size: 100%;
 }
-.no-of-notes{
-    border: solid 2px blue;
+#notes, .no-of-notes{
+    border: solid 2px rgb(28, 28, 80);
+    background-color: white;
 }
 .change-return{
-    border: solid 2px blue;
+    border: solid 2px rgb(28, 28, 80);
+    background-color: white;
 }
 p{
-    border: solid 2px blue;
-    padding: 1rem;
+    font-size: 150%;
+    text-align: center;
 }
 #notes{
-    border: solid 2px blue; 
+    border: solid 2px rgb(28, 28, 80); 
+}
+.heading{
+    font-size: 200%;
+    font-family: cursive;
+    padding-left: 1.7rem;
+}
+#output{
+    font-weight: bolder;
+    font-size: 200%;
+}
+table{
+    font-weight: bolder;
+    font-size: 150%;
+}
+.fill{
+    font-size: 150%;
+    text-align: center;
+}
+.output-area{
+    background-color: white;
 }

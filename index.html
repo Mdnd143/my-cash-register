@@ -9,14 +9,14 @@
 </head>
 <body>
     <div class="container">
-        <h1 class="heading">Cash Register Manager</h1>
-        <p class="description">Enter the bill amount in cash given by the customer 
-            and know the minimum number of notes to be returned</p>
-            <label for="bill-amount">Enter Bill Amount</label>
-            <input id="bill-amount" type="number">
-            <label for="cash-given">Cash Given</label>
-            <input id="cash-given" type="number">
-            <button id="check-button">Check</button>
+        <h1 class="heading">Cash Register handler</h1>
+        <p class="description">Enter the bill amount given by the customer 
+            and know the minimum number of notes to be given</p>
+            <div class="fill"><label for="bill-amount">Enter Bill Amount</label></div>
+                <div class="fill"><input id="bill-amount" type="number"></div>
+                    <div class="fill"><label for="cash-given">Cash Given</label></div>
+                        <div class="fill"><input id="cash-given" type="number"></div>
+                            <div class="fill"> <button id="check-button">Check result</button></div>
             <p id="output"></p>
             <table class="change-table">
                 <caption>Return Change</caption>
@@ -41,11 +41,6 @@
                 <td class="change-return">1</td>
             </tr>
             </table>
-            
-
-
-
-
     </div>
 
 
